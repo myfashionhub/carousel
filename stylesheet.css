@@ -1,0 +1,47 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+	text-align: center;
+}
+
+#bambox {
+	width: 600px;
+	height: 230px;
+	margin: 0 auto;
+}
+
+.arrow {
+	width: 20px;
+	position: relative;
+}
+.arrow img {
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.arrow.left {
+	float: left;
+	top: 88px;
+}
+.arrow.right {
+	float: right;
+	bottom: 118px;
+}
+
+.slide-container {
+	width: 560px;
+	height: 200px;
+	display: block;
+	margin: 0 20px;
+	overflow: hidden;
+}
+
+.slide {
+	display: inline-block;
+	width: 140px;
+	height: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
