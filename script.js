@@ -1,6 +1,6 @@
 // Given data
 var productImages = [];
-for (var i = 1; i < 6; i++) {
+for (var i = 1; i < 7; i++) {
 	productImages.push('assets/' + i + '.jpeg');
 }
 var imageWidth = '140px';

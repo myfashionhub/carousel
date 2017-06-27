@@ -5,8 +5,13 @@ h1 {
 	text-align: center;
 }
 
-#bambox {
+.wrapper {
 	width: 600px;
+	margin: 0 auto;
+}
+
+#bambox {
+	width: 100%;
 	height: 230px;
 	margin: 0 auto;
 }
