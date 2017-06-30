@@ -42,6 +42,11 @@ h1 {
 	overflow: hidden;
 }
 
+.slide-container-child {
+	height: 200px;
+	position: relative;
+}
+
 .slide {
 	display: inline-block;
 	width: 140px;
@@ -49,4 +54,8 @@ h1 {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.slide img {
+	height: 100%;
 }
