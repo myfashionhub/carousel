@@ -42,7 +42,7 @@ h1 {
 	overflow: hidden;
 }
 
-.slide-container-child {
+.slide-content {
 	height: 200px;
 	position: relative;
 }
