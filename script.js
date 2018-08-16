@@ -15,11 +15,9 @@ function Carousel() {
 
 		this.setUpSlides();
 
-		for (var i = 0; i < this.arrows.length; i++) {
-			this.arrows[i].addEventListener('click', function(e) {
-				self.onArrowClick(e.target.parentNode);
-			});
-		}
+		this.arrows.addEventListener('click', function(e) {
+			self.onArrowClick(e.target);
+		});
 	};
 
 	this.setUpSlides = function() {
@@ -39,19 +37,12 @@ function Carousel() {
 		var direction = element.className.replace('arrow ', '');
 
 		if (direction === 'left') {
-			firstSlide.style.marginLeft = 0 + 'px';
+			firstSlide.style.marginLeft = 0;
 		} else {
-			firstSlide.style.marginLeft = shiftLength + 'px';
+			firstSlide.style.marginLeft = shiftLength;
 		}
 	};
 }
 
-// Run carousel when document is ready
-var checkDocReady = setInterval(function() {
-	if (document.readyState === 'complete') {
-		clearInterval(checkDocReady);
-	}
-
-	var carousel = new Carousel();
-	carousel.run();
-}, 500);
+var carousel = new Carousel();
+carousel.run();
