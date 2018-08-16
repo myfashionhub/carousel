@@ -1,10 +1,7 @@
 Carousel exercise
 =================
 
-This is a set up for a carousel. Please implement functionality:
-- Images should move when clicking on left and right arrows.
-- When there's no more image in a direction, hide that arrow.
-- Implement dot navigation for the carousel.
+This is a simple carousel. Please identify and fix four bugs in `script.js`.
 
 To preview carousel:
 ```bash
